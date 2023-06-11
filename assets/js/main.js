@@ -30,4 +30,9 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener);
   };
+
+  // Implement frontend code
+  $(document).ready(function () {
+    console.log('Welcome to Jquery');
+  });
 })();
