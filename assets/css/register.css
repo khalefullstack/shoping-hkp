@@ -1,11 +1,15 @@
+/*--------------------------------------------------------------
+# Login
+--------------------------------------------------------------*/
+
 .register {
     width: 100%;
     height: 100vh;
 }
 .register .register-container {
-    width: 30%;
+    max-width: 400px;
     padding: 30px;
-    background-color: var(--bg-form);
+    box-shadow: 0 0 10px -8px #000;
     border-radius: 10px;
 }
 
@@ -16,23 +20,23 @@
     position: relative;
     width: 50%;
     margin: auto;
-    background-color: var(--bg-form);
+    /*background-color: var(--bg-form);*/
     z-index: 2;
 }
 .register .register-container .form .text-title p {
     color: rgb(142, 142, 142);
     font-weight: 400;
 }
-.register .register-container .form .text-title::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 2px;
-    background-color: rgb(93, 93, 93);
-    top: 35%;
-    left: 0;
-    z-index: 1;
-}
+/*.register .register-container .form .text-title::after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    width: 100%;*/
+/*    height: 2px;*/
+/*    background-color: rgb(93, 93, 93);*/
+/*    top: 35%;*/
+/*    left: 0;*/
+/*    z-index: 1;*/
+/*}*/
 .register .register-container form .form-group input {
     height: 45px;
 }
