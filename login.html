@@ -24,52 +24,68 @@
   <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-<div class="login d-flex justify-content-center align-items-center">
-  <div class="login-box">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <form class="">
-            <div class="signin-content mb-4 text-center">
-              <h2 class="page-title">Sign In</h2>
+<!-- ===============================================-->
+<!--    Main Content    -->
+<!-- ===============================================-->
+<main class="main">
+  <div class="container">
+    <div class="row flex-center min-vh-100 py-5">
+      <div class="col-sm-10 col-md-8 col-lg-5 col-xl-5 col-xxl-3">
+        <div class="d-flex flex-center mb-4">
+          <div class="d-flex align-items-center fw-bolder fs-5 d-inline-block">
+            <a href="#" class="text-decoration-none">
+              <img src="./assets/images/logo.png" width="80" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center mb-7">
+          <h3>Sign In</h3>
+          <p>Get access to your account</p>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email address</label>
+          <input
+              type="email"
+              class="form-control"
+              placeholder="Please enter Email Address"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input
+              type="password"
+              class="form-control"
+              placeholder="Enter Password"
+          />
+        </div>
+
+        <div class="row flex-between-center mb-5">
+          <div class="col-auto">
+            <div class="form-check mb-0">
+              <input id="remember-checkbox" type="checkbox" class="form-check-input" checked="checked">
+              <label for="remember-checkbox">Remember me</label>
             </div>
-            <div class="mb-3">
-              <label class="form-label">Email address</label>
-              <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Please enter Email Address"
-              />
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Password</label>
-              <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Enter Password"
-              />
-            </div>
-            <!-- <div class="mb-3 form-check">
-            <label class="form-check-label">
-              <a href="#">Forgot password</a>
-            </label>
-          </div> -->
-            <!-- <button type="button" class="btn btn-success">Log In</button> -->
-            <div class="d-grid gap-2">
-              <button class="btn btn-success" type="button">Log In</button>
-            </div>
-            <div class="text-center">
-              <p class="mt-4">
-                Don't have account?
-                <a href="#" class="text-decoration-none">Register</a>
-              </p>
-            </div>
-          </form>
+          </div>
+          <div class="col-auto">
+            <a href="#">Forgot Password?</a>
+          </div>
+        </div>
+
+        <button class="btn btn-success w-100 mb-3" type="button">Sign In</button>
+
+        <div class="text-center">
+          <a href="#">Create an account</a>
         </div>
       </div>
     </div>
   </div>
-</div>
+</main>
+<!-- ===============================================-->
+<!--    End of Main Content    -->
+<!-- ===============================================-->
 
 <!-- Vendor JS Files -->
 <script src="./assets/vendor/jquery/js/jquery-3.7.0.min.js"></script>
