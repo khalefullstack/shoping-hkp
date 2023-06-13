@@ -1,14 +1,16 @@
 @import url(./login.css);
+@import url(./register.css);
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
+  --bg-form: rgb(238, 238, 238);
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   background: #f6f9ff;
   color: #444444;
 }
@@ -30,6 +32,24 @@ h4,
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-between-center {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -60,6 +80,7 @@ h6 {
   font-weight: 600;
   color: #012970;
 }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -74,10 +95,6 @@ h6 {
 
 /*--------------------------------------------------------------
 # Profie
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Login
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -101,4 +118,3 @@ h6 {
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
 }
-
