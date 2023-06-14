@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------
+# Register
+--------------------------------------------------------------*/
+
+/* .register {
+   
+  
+}
+
+.register-container .form .text-title h2 {
+    margin: auto;
+}
+
+.register-container .form .text-title p {
+    color: rgb(142, 142, 142);
+    font-weight: 400;
+}
+
+.register-container form .form-control {
+    height: 40px;
+} */
+.register {
+    height: 100vh;
+}
+.register-container {
+    max-width: 400px;
+    padding: 0 30px;
+    box-shadow: 0 0 10px -8px #000;
+    border-radius: 10px;
+}
+.submit-form {
+    height: 40px;
+}
+
+.rules {
+    font-size: 15px;
+}
