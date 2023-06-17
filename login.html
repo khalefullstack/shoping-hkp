@@ -30,7 +30,9 @@
                   type="email"
                   class="form-control EmailAddres w-100"
                   placeholder="Please enter Email"
+                  autocomplete="email"
                 />
+                <p class="attEmail"></p>
               </div>
               <div class="Pass">
                 <label class="form-label d-block">Password</label>
@@ -38,11 +40,13 @@
                   type="password"
                   class="form-control PassWord w-100"
                   placeholder="Please enter password"
+                  autocomplete="password"
                 />
+                <p class="attPass"></p>
               </div>
-              <button type="submit" class="butLogin btn btn-success w-100 mt-3">
+              <div type="submit" class="butLogin btn btn-success w-100 mt-3">
                 Login
-              </button>
+              </div>
               <p class="mt-2 text-center">
                 Don't have account? <a href="#">Register</a>
               </p>
@@ -61,5 +65,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/login.js"></script>
   </body>
 </html>
