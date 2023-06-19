@@ -24,53 +24,80 @@
   <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-<div class="register d-flex justify-content-center align-items-center">
-  <div class="register-container">
-    <div class="form">
-      <div class="text-title mb-4 text-center">
-        <h2 class="page-title p-2">Register</h2>
-        <p>Create your account. It's free and only takes a minute</p>
+<!-- ===============================================-->
+<!--    Main Content    -->
+<!-- ===============================================-->
+<main class="main">
+  <div class="row vh-100 g-0">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="row flex-center h-100 g-0 px-4 px-sm-0">
+        <div class="col-sm-6 col-lg-7 col-xl-6">
+          <div class="d-flex flex-center mb-4">
+            <div class="d-flex align-items-center fw-bolder fs-5 d-inline-block">
+              <a href="#" class="text-decoration-none">
+                <img src="./assets/images/logo.png" width="80" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="text-center mb-7">
+            <h3>Register</h3>
+            <p>Create your account. It's free and only takes a minute</p>
+          </div>
+
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Username</label>
+              <input type="text" class="form-control" placeholder="Enter username"/>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-control" placeholder="Enter First Name"/>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-control" placeholder="Enter Last Name"/>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="Enter Email Address"/>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password" class="form-control" placeholder="Enter Password"/>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Confirm Password</label>
+              <input type="password" class="form-control" placeholder="Enter Confirm Password"/>
+            </div>
+
+            <div class="row flex-between-center mb-5">
+              <div class="form-check mb-0">
+                <input id="terms-agreement" type="checkbox" class="form-check-input" checked="checked"/>
+                <label class="form-check-label">
+                  I accept the <span class="text-success">Team of Use & </span>
+                  <span class="text-success">Privacy Policy</span>
+                </label>
+              </div>
+            </div>
+
+            <button class="btn btn-success w-100 submit-form" type="button">Register</button>
+
+            <div class="text-center">
+              <p class="text-center mt-3">Already have an account? <a class="text-decoration-none" href="#">Sign In</a>
+            </div>
+            </p>
+          </form>
+        </div>
       </div>
-      <form>
-        <div class="mb-4">
-          <label class="form-label">Username</label>
-          <input type="text" class="form-control" placeholder="Enter username"/>
-        </div>
-        <div class="mb-4">
-          <label class="form-label">First Name</label>
-          <input type="text" class="form-control" placeholder="Enter First Name"/>
-        </div>
-        <div class="mb-4">
-          <label class="form-label">Last Name</label>
-          <input type="text" class="form-control" placeholder="Enter Last Name"/>
-        </div>
-        <div class="mb-4">
-          <label class="form-label">Email Address</label>
-          <input type="email" class="form-control" placeholder="Enter Email Address"/>
-        </div>
-        <div class="mb-4">
-          <label class="form-label">Password</label>
-          <input type="password" class="form-control" placeholder="Enter Password"/>
-        </div>
-        <div class="mb-4">
-          <label class="form-label">Confirm Password</label>
-          <input type="password" class="form-control" placeholder="Enter Confirm Password"/>
-        </div>
-        <div class="form-check mb-4">
-          <input type="checkbox" class="form-check-input"/>
-          <label class="form-check-label">
-            I accept the <span class="text-success">Team of Use & </span>
-            <span class="text-success">Privacy Policy</span>
-          </label>
-        </div>
-        <div class="d-grid gap-2">
-          <button class="btn btn-success submit-form" type="button">Register</button>
-        </div>
-        <p class="text-center mt-3">Already have an account? <a class="text-decoration-none" href="#">Sign In</a></p>
-      </form>
     </div>
   </div>
-</div>
+</main>
 
 <!-- Vendor JS Files -->
 <script src="./assets/vendor/jquery/js/jquery-3.7.0.min.js"></script>
